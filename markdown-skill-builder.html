@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Markdown Skill Builder Template | Lejla Dzaferagic</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    :root{--navy:#111a43;--blue:#0e65cf;--pale:#eef5ff;--purple:#6543ad;--ink:#17213a;--muted:#55627a;--line:#d8e1ef;--paper:#fff;--bg:#f5f7fc}body{background:var(--bg);color:var(--ink)}.page{max-width:1120px;margin:0 auto;padding:46px 22px 72px}.hero{background:var(--navy);color:#fff;border-radius:24px;padding:45px 46px 38px;position:relative;overflow:hidden}.hero:after{content:"";position:absolute;width:360px;height:360px;border:1px solid #91a8ff;border-radius:50%;right:-120px;top:-172px;box-shadow:0 0 0 34px rgba(132,155,255,.09),0 0 0 68px rgba(132,155,255,.05)}.eyebrow{position:relative;z-index:1;color:#bfcbff;text-transform:uppercase;letter-spacing:.12em;font-weight:800;font-size:.75rem}.hero h1{position:relative;z-index:1;max-width:740px;margin:11px 0 14px;font-family:Georgia,serif;font-size:clamp(2.1rem,5vw,4rem);line-height:1.04;letter-spacing:-.04em}.hero p{position:relative;z-index:1;max-width:705px;margin:0;color:#dbe2ff;font-size:1.07rem;line-height:1.6}.tabs{display:flex;gap:8px;border-bottom:1px solid var(--line);margin:27px 0 22px}.tab{background:transparent;border:0;border-bottom:3px solid transparent;color:var(--muted);padding:13px 16px 11px;font-weight:700;font-size:.94rem;cursor:pointer}.tab[aria-selected=true]{color:var(--blue);border-color:var(--blue)}.panel{display:none}.panel.active{display:block}.intro,.grid,.builder{display:grid;grid-template-columns:1fr 1fr;gap:18px}.builder{grid-template-columns:.84fr 1.16fr}.card{background:var(--paper);border:1px solid var(--line);border-radius:16px;padding:24px}.card h2{font:1.55rem/1.15 Georgia,serif;margin:0 0 10px}.card h3{font-size:1rem;margin:0 0 6px}.card p,.card li{color:var(--muted);line-height:1.55}.callout{background:var(--pale);border-color:#bddaff}.callout strong{display:block;color:var(--navy);margin-bottom:5px}.rule{padding:16px 0;border-bottom:1px solid var(--line)}.rule:last-child{border-bottom:0;padding-bottom:0}.code{background:#101a31;color:#eaf1ff;border-radius:10px;padding:13px 14px;margin:9px 0 0;font:13px/1.55 ui-monospace,SFMono-Regular,Menlo,monospace;white-space:pre-wrap;overflow-wrap:anywhere}.note{font-size:.88rem;color:var(--muted);margin:16px 0 0}.form-card label{display:block;font-size:.87rem;font-weight:700;margin:15px 0 6px}.form-card label:first-of-type{margin-top:0}input,textarea{font:14px Arial,sans-serif;color:var(--ink);width:100%;border:1px solid #bac8dc;border-radius:9px;padding:10px 11px;background:#fff}textarea{resize:vertical;min-height:70px}input:focus,textarea:focus{outline:3px solid #cbe2ff;border-color:var(--blue)}.output-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px}.output-head h2{font-size:1.2rem;margin:0}.copy{background:var(--blue);border:0;border-radius:8px;color:#fff;padding:9px 11px;font-weight:700;cursor:pointer}.copy:hover{background:#0a54b1}pre{margin:0;max-height:650px;overflow:auto;background:#101a31;color:#eaf1ff;padding:18px;border-radius:10px;font:13px/1.54 ui-monospace,SFMono-Regular,Menlo,monospace;white-space:pre-wrap}.footer-note{color:var(--muted);font-size:.84rem;margin:20px 2px 0}.steps{margin:0;padding-left:20px}.steps li{margin:8px 0}.warning{margin-top:18px;border-left:4px solid var(--purple);padding:13px 15px;background:#f7f4fd;color:#4d3a73}@media(max-width:760px){.page{padding:25px 14px 50px}.hero{padding:31px 24px;border-radius:18px}.intro,.grid,.builder{grid-template-columns:1fr}.tabs{overflow-x:auto}.tab{white-space:nowrap;padding-left:11px;padding-right:11px}.card{padding:19px}}
+  </style>
+</head>
+<body>
+<header><div class="container"><nav><a class="brand" href="index.html">Lejla Dzaferagic</a><div class="menu"><a href="index.html">Home</a><a href="services.html">Project Page</a><a class="active" href="templates.html">Templates</a><a href="about.html">About</a><a href="articles.html">Articles</a></div></nav></div></header>
+<main class="page">
+  <section class="hero"><div class="eyebrow">Agent-ready knowledge template</div><h1>Markdown Skill Builder Template</h1><p>Use Markdown to give knowledge a simple, reusable structure. Then use the Skill Builder to turn a trusted workflow into an instruction set that teams can test, maintain and use during transformation.</p></section>
+  <div class="tabs" role="tablist" aria-label="Markdown and skills sections"><button class="tab" id="tab-markdown" role="tab" aria-controls="markdown" aria-selected="true">Markdown cheat sheet</button><button class="tab" id="tab-skill" role="tab" aria-controls="skill" aria-selected="false">Skill Builder</button></div>
+  <section class="panel active" id="markdown" role="tabpanel" aria-labelledby="tab-markdown">
+    <div class="intro"><article class="card"><h2>Why Markdown helps</h2><p>Markdown is plain text with light formatting. It is easy to read, easy to update and gives people and AI systems useful cues about hierarchy, lists, steps, links and boundaries.</p><p>It does not make knowledge accurate by itself. Keep an owner, a review date and a link to the approved source.</p></article><aside class="card callout"><strong>Start with a real use case</strong>Use Markdown for manager processes, policy summaries, employee journeys, knowledge articles, transformation playbooks and recurring operational guidance.</aside></div>
+    <div class="grid" style="margin-top:18px"><article class="card"><h2>Structure</h2><div class="rule"><h3>Headings</h3><div class="code"># Main title
+## Section
+### Subsection</div></div><div class="rule"><h3>Emphasis</h3><div class="code">**Important policy requirement**
+*Helpful context*</div></div><div class="rule"><h3>Lists</h3><div class="code">- Use bullets for checks or choices
+- Keep each point focused
+
+1. Use numbers for steps in order
+2. Keep the sequence clear</div></div></article><article class="card"><h2>Useful references</h2><div class="rule"><h3>Links</h3><div class="code">[Read the approved policy](https://example.com/policy)</div></div><div class="rule"><h3>Quote a requirement</h3><div class="code">> Policy requirement: submit the request at least four weeks in advance.</div></div><div class="rule"><h3>Code or exact wording</h3><div class="code">`Case status: pending approval`</div></div></article><article class="card"><h2>Tables</h2><p>Use tables when people need to compare a small set of structured options. Do not force long paragraphs into cells.</p><div class="code">| Situation | First action | Owner |
+| --- | --- | --- |
+| Standard request | Follow the checklist | People Operations |
+| Exception | Escalate for review | Employee Relations |</div></article><article class="card"><h2>Agent-ready notes</h2><div class="rule"><h3>State the use case</h3><div class="code">**Use this when:** A manager receives a parental-leave request in Ireland.</div></div><div class="rule"><h3>State a boundary</h3><div class="code">## Boundaries
+- Do not give legal advice.
+- Escalate complex cases to the accountable team.</div></div><div class="rule"><h3>Show the source</h3><div class="code">**Owner:** People Operations
+**Last reviewed:** 12 November 2026
+**Source of truth:** [Leave policy](internal-link)</div></div></article></div>
+    <article class="card" style="margin-top:18px"><h2>Starter structure for a knowledge article</h2><div class="code"># [Topic]
+
+**Use this when:** [clear trigger]
+**Owner:** [team or role]
+**Last reviewed:** [date]
+**Source of truth:** [link]
+
+## What this covers
+[short, factual scope]
+
+## Steps
+1. [action]
+2. [action]
+3. [action]
+
+## Boundaries and escalation
+- Do not [restricted action].
+- Escalate when [condition].</div><p class="note">Syntax examples are adapted from the <a href="https://github.com/adam-p/markdown-here/wiki/markdown-cheatsheet" target="_blank" rel="noopener">Markdown Cheatsheet by Markdown Here</a>. Check the Markdown flavour used in your own tool, as support for tables and other features can differ.</p></article>
+  </section>
+  <section class="panel" id="skill" role="tabpanel" aria-labelledby="tab-skill">
+    <div class="intro"><article class="card"><h2>Turn good practice into a reusable skill</h2><p>A skill is a focused, repeatable set of instructions. It tells a person or agent when to use a workflow, which sources it can trust, what it must do, what it must not do and how to check the result.</p></article><aside class="card callout"><strong>Start narrow</strong>One skill should support one defined type of work. Begin with a high-volume process or a reliable knowledge journey, then test and improve it before expanding its scope.</aside></div>
+    <div class="builder" style="margin-top:18px"><form class="card form-card" id="skill-form"><h2>Skill settings</h2><label for="name">Skill name</label><input id="name" value="people-policy-guidance" placeholder="e.g. people-policy-guidance"><label for="purpose">What task does the skill support?</label><textarea id="purpose">Give employees and managers clear, source-based guidance on defined people policies and processes.</textarea><label for="trigger">When should it be used?</label><textarea id="trigger">Use when a user asks how to follow a standard people policy or process.</textarea><label for="sources">Approved sources</label><textarea id="sources">Approved policy pages, process guides and the central knowledge repository.</textarea><label for="steps">Core steps (one per line)</label><textarea id="steps">Confirm the user's country and the topic.
+Locate the current approved source.
+Give the relevant steps in plain language.
+Link or cite the source.
+Escalate exceptions or unclear cases.</textarea><label for="boundaries">Boundaries and escalation</label><textarea id="boundaries">Do not give legal advice, approve exceptions or use unapproved sources. Escalate sensitive, complex or incomplete cases to the accountable People/HR team.</textarea><label for="check">Final quality check</label><textarea id="check">Check that the answer is current, within scope, clear about limitations and includes the source where available.</textarea></form><article class="card"><div class="output-head"><h2>Copyable SKILL.md</h2><button class="copy" id="copy" type="button">Copy template</button></div><pre id="output"></pre><p class="note">This is a starting point. The accountable owner should review and approve the skill before it is used with live employee or business information.</p></article></div>
+    <article class="card" style="margin-top:18px"><h2>Use it as part of transformation</h2><ol class="steps"><li>Start by improving one recurring knowledge journey.</li><li>Use the Markdown structure to make the approved content easier to find and maintain.</li><li>Create a focused skill for the repeatable work around it, including sources, guardrails and a human escalation point.</li><li>Test with realistic questions, fix gaps and get owner approval before broader use.</li></ol></article>
+    <div class="warning"><strong>Important:</strong> Do not put confidential employee, customer, health, payroll, legal or financial information into unapproved AI tools. Define the right data boundaries before testing any agent workflow.</div>
+  </section>
+  <p class="footer-note">Adapt this resource to your organisation’s policies, data controls and approval process before use.</p>
+</main>
+<footer><div class="container">© <span id="y"></span> Lejla Dzaferagic</div></footer>
+<script>
+  document.getElementById('y').textContent=new Date().getFullYear();
+  const tabs=[...document.querySelectorAll('.tab')],panels=[...document.querySelectorAll('.panel')];
+  tabs.forEach(tab=>tab.addEventListener('click',()=>{tabs.forEach(t=>t.setAttribute('aria-selected','false'));panels.forEach(p=>p.classList.remove('active'));tab.setAttribute('aria-selected','true');document.getElementById(tab.getAttribute('aria-controls')).classList.add('active')}));
+  const get=id=>document.getElementById(id).value.trim(), lines=v=>v.split('\n').map(x=>x.trim()).filter(Boolean), output=document.getElementById('output');
+  function build(){const name=get('name').toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g)||'skill-name';output.textContent=`---\nname: ${name}\ndescription: "${get('purpose')}"\n---\n\n# ${name.replace(/-/g,' ')}\n\n## When to use\n${get('trigger')}\n\n## Approved sources\n${get('sources')}\n\n## Workflow\n${lines(get('steps')).map((s,i)=>`${i+1}. ${s}`).join('\n')}\n\n## Boundaries and escalation\n${lines(get('boundaries')).map(s=>'- '+s).join('\n')}\n\n## Final quality check\n${get('check')}`}
+  document.querySelectorAll('#skill-form input,#skill-form textarea').forEach(el=>el.addEventListener('input',build));build();
+  document.getElementById('copy').addEventListener('click',async()=>{const b=document.getElementById('copy');try{await navigator.clipboard.writeText(output.textContent);b.textContent='Copied';setTimeout(()=>b.textContent='Copy template',1400)}catch(e){alert('Copy failed. Select the template text and copy it manually.')}});
+</script>
+</body>
+</html>
